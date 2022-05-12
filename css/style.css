@@ -3964,6 +3964,17 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .header-menu-2 .ltn__main-menu > ul {
     display: inline-block; }
 
+    .ltn__main-menu >ul li:last-child a {
+      color: white;
+      transition: transform .2s;
+      background-color: var(--ltn__secondary-color);
+      border-radius: 100%;
+    }
+
+    .ltn__main-menu >ul li:last-child a:hover {
+      transform: scale(1.1);
+    }
+
 /* ----------------------------------------------
     Header Feature Area
 ---------------------------------------------- */
@@ -5016,6 +5027,16 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .sticky-active.ltn__sticky-bg-white .header-search-1 .search-icon,
   .sticky-active.ltn__sticky-bg-white .ltn__header-options .ltn__drop-menu > ul > li > a {
     color: var(--ltn__heading-color); }
+    .sticky-active.ltn__sticky-bg-white .ltn__main-menu > ul > li:last-child > a,
+  .sticky-active.ltn__sticky-bg-white .header-wishlist a,
+  .sticky-active.ltn__sticky-bg-white .mini-cart-icon,
+  .sticky-active.ltn__sticky-bg-white .header-feature-item h6,
+  .sticky-active.ltn__sticky-bg-white .header-feature-item p,
+  .sticky-active.ltn__sticky-bg-white .header-feature-icon,
+  .sticky-active.ltn__sticky-bg-white .header-search-1 .search-icon,
+  .sticky-active.ltn__sticky-bg-white .ltn__header-options .ltn__drop-menu > ul > li > a {
+    color: white; }
+    
   .sticky-active.ltn__sticky-bg-white .ltn__header-options-2 .header-search-1,
   .sticky-active.ltn__sticky-bg-white .ltn__header-options-2 .header-search-1 i,
   .sticky-active.ltn__sticky-bg-white .ltn__header-options-2 .ltn__drop-menu > ul > li > a,
