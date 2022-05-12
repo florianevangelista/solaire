@@ -629,6 +629,10 @@ fieldset legend {
   background-color: var(--red) !important;
   color: var(--white) !important; }
 
+.bg-custom {
+  background-color: #a4d5f6;
+}
+
 .bg-yellow {
   background-color: var(--yellow) !important;
   color: var(--ltn__heading-color) !important; }
@@ -8741,7 +8745,8 @@ blockquote {
   font-size: 70px;
   font-weight: 700;
   float: left;
-  background-color: var(--ltn__secondary-color);
+  border-radius: 10%;
+  background-color: #a4d5f6;
   color: var(--white);
   margin-right: 30px;
   line-height: 1;
