@@ -3964,14 +3964,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .header-menu-2 .ltn__main-menu > ul {
     display: inline-block; }
 
-    .ltn__main-menu >ul li:last-child a {
-      color: white;
+    .buton_menu_devis {
+      color: white !important;
       transition: transform .2s;
       background-color: var(--ltn__secondary-color);
       border-radius: 100%;
     }
 
-    .ltn__main-menu >ul li:last-child a:hover {
+    .buton_menu_devis:hover {
       transform: scale(1.1);
     }
 
